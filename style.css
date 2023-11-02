@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jockey One', sans-serif;
+    background-image: url(pexels-eduardo-soares-5646319.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    margin-top: 0;
+}
+
+#main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border: 1px solid rgba(245, 245, 245, 0.438);
+}
+
+#corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+#icon {
+    width: 120px;
+    margin-top: 15px;
+}
+
+#user {
+    margin-top: 50px;
+    margin-bottom: 10px;
+ 
+}
+
+input {
+    padding-left: 20px;
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: rgba(255, 245, 245, 0.329);
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(13, 25, 194, 0.527);
+    transition: 0.3s;
+    width: 220px;
+    font-size: 16px;
+}
+
+input:hover {
+    transition: 0.3s;
+    background-color: rgba(16, 16, 124, 0.425);
+}
+
+input::placeholder {
+
+    color: whitesmoke;
+}
+
+button {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    border-color: rgba(255, 253, 253, 0.329);
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: whitesmoke;
+}
+
+pre {
+    margin-top: 100px;
+    color: rgba(245, 245, 245, 0.39);
+}
